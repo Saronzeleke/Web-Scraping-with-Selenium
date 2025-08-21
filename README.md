@@ -41,47 +41,47 @@ A comprehensive tutorial on web scraping with Selenium for both static and dynam
 
 **Implement best practices for ethical web scraping**
 
-**Structure scraped data for analysis **
+**Structure scraped data for analysis**
 
 # ⚙️ Prerequisites
-**Basic knowledge of Python programming **
+**Basic knowledge of Python programming**
 
-**Understanding of HTML and CSS selectors **
+**Understanding of HTML and CSS selectors**
 
-**Python 3.8 or higher installed **
+**Python 3.8 or higher installed**
 
-**pip package manager **
+**pip package manager**
 
 # 📦 Installation
-**Clone this repository **:
-**git clone <repository-url> **
-**cd web-scraping-tutorial **
+**Clone this repository**:
+**git clone <repository-url>**
+**cd web-scraping-tutorial**
 
-**Install required packages **:
+**Install required packages**:
 pip install selenium beautifulsoup4 pandas webdriver-manager
-**Chrome browser (will be used by Selenium) **
+**Chrome browser (will be used by Selenium)**
 
 # 🧠 Basic Concepts
-**Selenium is a powerful tool for automating web browsers. Key concepts covered **:
+**Selenium is a powerful tool for automating web browsers. Key concepts covered**:
 
-**WebDriver initialization and management **
+**WebDriver initialization and management**
 
-**Locating elements (ID, class, CSS selectors, XPath) **
+**Locating elements (ID, class, CSS selectors, XPath)**
 
-**Handling waits and timeouts **
+**Handling waits and timeouts**
 
-**Interaction with page elements (clicks, form submission) **
+**Interaction with page elements (clicks, form submission)**
 
-**Navigation between pages **
+**Navigation between pages**
 
 # 📄 Static Page Scraping
-**Static pages load all content immediately. Our example extracts **:
+**Static pages load all content immediately. Our example extracts**:
 
-**Featured article from Wikipedia main page **
+**Featured article from Wikipedia main page**
 
-**Current news headlines **
+**Current news headlines**
 
-**Links and text content **
+**Links and text content**
 
 #static scraping
 from static_scraping import scrape_wikipedia_static
@@ -90,32 +90,32 @@ data = scrape_wikipedia_static()
 print(data['featured_article'])
 
 # ⚡ Dynamic Page Scraping
-**Dynamic content requires interaction or waiting for JavaScript execution. Our example **:
+**Dynamic content requires interaction or waiting for JavaScript execution. Our example**:
 
-**Performs Wikipedia searches **
+**Performs Wikipedia searches**
 
-**Handles page navigation **
+**Handles page navigation**
 
-**Waits for content to load **
+**Waits for content to load**
 
-**Extracts structured information **
+**Extracts structured information**
 #dynamic scraping
 from dynamic_scraping import scrape_wikipedia_dynamic
 
 data = scrape_wikipedia_dynamic("Machine Learning")
 print(data['page_title'])
 # ✅ Best Practices
-**The tutorial emphasizes ethical scraping **:
+**The tutorial emphasizes ethical scraping**:
 
-**Respect robots.txt - Always check website policies **
+**Respect robots.txt - Always check website policies**
 
-**Rate limiting - Add delays between requests **
+**Rate limiting - Add delays between requests**
 
-**Error handling - Robust code for production use **
+**Error handling - Robust code for production use**
 
-**Resource cleanup - Properly close connections **
+**Resource cleanup - Properly close connections**
 
-**Data validation - Ensure scraped data quality **
+**Data validation - Ensure scraped data quality**
 
 # 🚀 Complete Example
 The WikipediaScraper class provides a complete implementation:
@@ -133,37 +133,37 @@ search_data = scraper.search_and_scrape("Artificial Intelligence")
 # Close when done
 scraper.close()
 # 🤝 Ethical Considerations
-**Web scraping comes with responsibilities **:
+**Web scraping comes with responsibilities**:
 
-**Always check robots.txt before scraping **
+**Always check robots.txt before scraping**
 
-**Respect website terms of service **
+**Respect website terms of service**
 
-**Implement rate limiting to avoid overwhelming servers **
+**Implement rate limiting to avoid overwhelming servers**
 
-**Use scraped data only for legitimate purposes **
+**Use scraped data only for legitimate purposes**
 
-**Consider using official APIs when available **
+**Consider using official APIs when available**
 
 # 🐛 Troubleshooting
-**Common issues and solutions **:
+**Common issues and solutions**:
 
-**1. WebDriver issues: Ensure Chrome and WebDriver versions match **
+**1. WebDriver issues: Ensure Chrome and WebDriver versions match**
 
-**2. Element not found: Add explicit waits or check selector accuracy **
+**2. Element not found: Add explicit waits or check selector accuracy**
 
-**3.Blocked requests: Implement longer delays between requests **
+**3.Blocked requests: Implement longer delays between requests**
 
-**4.Dynamic content: Increase wait timeouts or use different waiting strategies **
+**4.Dynamic content: Increase wait timeouts or use different waiting strategies**
 
 # 📖 Resources
-**Selenium Documentation **
+**Selenium Documentation**
 
-**Beautiful Soup Documentation **
+**Beautiful Soup Documentation**
 
-**ChromeDriver Documentation **
+**ChromeDriver Documentation**
 
-**Wikipedia Robots.txt **
+**Wikipedia Robots.txt**
 
 # 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
