@@ -33,7 +33,7 @@ A comprehensive tutorial on web scraping with Selenium for both static and dynam
 # 🎯 Introduction
 **This tutorial teaches web scraping techniques using Selenium, covering both static and dynamic web pages. You'll learn how to **:
 
-**Set up Selenium with Chrome WebDriver **
+**Set up Selenium with Chrome WebDriver**
 
 **Extract data from static content that loads immediately **
 
