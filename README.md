@@ -37,7 +37,7 @@ https://img.shields.io/badge/License-MIT-green
 12. Resources
 
 # 🎯 Introduction
-**This tutorial teaches web scraping techniques using Selenium, covering both static and dynamic web pages. You'll learn how to **:
+**This tutorial teaches web scraping techniques using Selenium, covering both static and dynamic web pages. You'll learn how to**:
 
 **Set up Selenium with Chrome WebDriver**
 
