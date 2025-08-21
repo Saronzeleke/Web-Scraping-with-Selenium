@@ -1,11 +1,17 @@
 # Web Scraping with Selenium Tutorial
+
 https://img.shields.io/badge/Python-3.8%252B-blue
+
+
 https://img.shields.io/badge/Selenium-4.0%252B-orange
+
 https://img.shields.io/badge/License-MIT-green
 
-A comprehensive tutorial on web scraping with Selenium for both static and dynamic web pages, using Wikipedia as our example website.
+
+# A comprehensive tutorial on web scraping with Selenium for both static and dynamic web pages, using Wikipedia as our example website.
 
 📚 Table of Contents
+
  1. Introduction
 
  2. Prerequisites
@@ -169,7 +175,12 @@ scraper.close()
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 # 👥 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check issues page.
+Contributions, issues, and feature requests are welcome! Feel free to contribute.
+
+# contct :
+
+**Email: Sharonkuye369@gmail.com**
+**Telegram:@sakuzas**
 
 # 🙏 Acknowledgments
 Wikipedia for providing a great platform for learning web scraping
