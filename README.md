@@ -35,11 +35,11 @@ A comprehensive tutorial on web scraping with Selenium for both static and dynam
 
 **Set up Selenium with Chrome WebDriver**
 
-**Extract data from static content that loads immediately **
+**Extract data from static content that loads immediately**
 
-**Handle dynamic content that requires interaction or waiting **
+**Handle dynamic content that requires interaction or waiting**
 
-**Implement best practices for ethical web scraping **
+**Implement best practices for ethical web scraping**
 
 **Structure scraped data for analysis **
 
